@@ -1,14 +1,11 @@
 {
-  "name": "@stencil/router",
+  "name": "@stencil/router-src",
   "version": "0.0.17",
-  "description": "Stencil Router",
+  "description": "Stencil Router (with source code)",
   "main": "dist/collection/index.js",
   "browser": "dist/stencilrouter.js",
   "types": "dist/collection/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
-  "files": [
-    "dist/"
-  ],
   "scripts": {
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
